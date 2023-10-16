@@ -1,0 +1,87 @@
+@import url("reset.css");
+
+
+/*приклад
+*-стилі застосовуються для всіх об*єктів на сторінці*/
+
+/** {
+	color: rgb(5, 5, 129);
+}*/ 
+
+h1, 
+h2 {
+	color: rgb(21, 21, 217);
+}
+
+.main-info span{
+	color: aqua;
+}
+
+.main-info p {
+	color: rgb(5, 101, 101);
+}
+
+.main-info.hero-city {
+	color: rgb(250, 4, 4);
+}
+
+.history{
+	color: rgb(157, 41, 41);
+	}
+
+.history h3{
+	color: rgb(238, 140, 140);
+}
+
+.establishment > p {
+	color: rgb(87, 87, 242);
+}
+
+.occupation ~ p {
+	color: rgb(161, 87, 87);
+}
+
+.modern-warfare + p {
+	color: red;
+}
+
+.nature h3{
+	color: rgb(6, 225, 79);
+}
+
+.nature-reserves,
+.plants {
+	color: rgb(3, 79, 32);
+}
+
+.nature-reserves a {
+color: rgb(7, 171, 26);
+}
+
+#education {
+	color: rgb(150, 48, 129);
+}
+
+.education a{
+	color: rgb(247, 5, 199);
+}
+
+.people *{
+	color: blueviolet;
+}
+
+li.example {
+	color: rgb(88, 3, 167);
+}
+
+.pictures h3{
+	color: yellowgreen;
+}
+
+.content{
+	color: black;
+}
+
+li.education a.content{
+	color: black;
+}
