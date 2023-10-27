@@ -1,0 +1,90 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif; 
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 1.46;
+	text-align:justify;
+}
+
+h1, h2{
+	font-family: "Kanit", sans-serif; 
+	font-size: 30px;
+	font-style: oblique;
+	font-weight: 600;
+	color: rgb(17, 99, 73);
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 3px 1px burlywood;
+	letter-spacing: 5px;
+	word-spacing: 7px;
+}
+
+h2{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	text-shadow: -1px 2px 2px rgba(218, 234, 38, 0.553);
+	letter-spacing: 2px;
+}
+
+.plot-toys p,
+.radio-control p,
+.musical-toys{
+	font-family: "RobotoSlab"; 
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(19, 66, 51);
+}
+
+.radio-control p{
+	font-style: oblique;
+	font-weight: 500;
+	color: rgb(29, 92, 73);
+	text-shadow: 1px 2px rgba(203, 180, 149, 0.34);
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+.musical-toys{
+	font-size: 16px;
+	font-weight: 400;
+	font-style: oblique;
+	color: rgb(113, 105, 28);
+	text-shadow: -2px -1px 2px burlywood;
+	text-transform: uppercase;
+	word-spacing: 4px;
+}
+
+.consulting h2,
+.project-information h2,
+.consulting h3{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1,27; /*валідатор сварився:Слишком много значений или нераспознанное значение*/
+	font-style: normal;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+.project-information h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.consulting h3{
+	color: #6B77E5;
+	font-size: 20px;
+}
+
+.project-information ul, ol{
+	font-weight: 500;
+}
+
