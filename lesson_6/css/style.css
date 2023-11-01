@@ -1,0 +1,138 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+	font-family: Inter;
+	font-size: 20px;
+	line-height: 1.27;
+	color: #7D7D7D;
+}
+
+.container-business{
+	max-width: 692px;
+	margin: 0 auto;
+}
+
+.container-business img{
+	max-width: 100%;
+	margin-bottom: 24px;
+}
+
+.business h3, h4, h5, h6{
+	font-family: Poppins;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+
+.business h3, h5{
+	margin-bottom: 12px;
+}
+
+.business h3{
+	font-size: 30px;
+	color: #37393F;
+}
+
+.business h5{
+	font-size: 20px;
+	color: #6B77E5;
+}
+
+.text{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46; 
+	margin-bottom: 40px;
+}
+
+.benefit img{
+	width: 331px;
+	margin-right: 23px;
+}
+
+.benefit-text{
+	display: inline-block;
+	width: 332px;
+}
+
+.benefit-text h4{
+	font-size: 25px;
+	color: #37393F;
+	margin-bottom: 15px;
+}
+
+.benefit-text h6{
+	font-size: 20px;
+	color: #40DDB6;
+	margin-bottom: 23px;
+}
+
+.benefit-text ul{
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.benefit-text li{
+	margin-bottom: 30px;
+}
+
+.container-jewelry{
+	background-color: #FFF9F4;
+}
+
+.jewelry{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 140px 0;
+}
+
+.jewelry-text{
+	display: inline-block;
+	max-width: 563px;
+	margin: 21px 33px 0 0;
+}
+
+.jewelry h2{
+	font-size: 28px;
+	color: #D06B00;
+}
+
+.jewelry h1{
+	font-family: DM Serif Text;
+	font-size: 59px;
+	color: #0E333D;
+	line-height: 1.46;
+}
+
+.jewelry p{
+	line-height: 1.80;
+	color: #474747;
+	margin-top: 25px;
+}
+
+.earring{
+	margin-right: 15px;
+}
+
+.container-toys{
+	background-color:  #fcddecac ;
+	padding: 70px 0;
+}
+
+.toys{
+	display: inline-block;
+	width: 500px;
+	padding: 15px;
+}
+
+.toys h2{
+	font-family: Poppins;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+
+.toys ul{
+	font-size: 28px;
+	color: #6d6a6a;
+	line-height: 1.46; 
+}
