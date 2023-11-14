@@ -1,0 +1,315 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+	font-family: Inter;
+	font-size: 18px;
+}
+
+header, footer{
+	padding: 30px;
+	text-align: center;
+}
+
+.practice{
+	max-width: 1200px;
+	min-height: 330px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin: 50px auto;
+	color: rgb(118, 74, 74);	
+	letter-spacing: 2px;
+	background: 
+		url("../img/toys.jpeg") top center no-repeat,
+		url("../img/star.svg") left repeat-y,
+		url("../img/star.svg") right repeat-y,
+		linear-gradient(to bottom, rgba(219, 219, 219, 0.57) 0%, rgba(217, 217, 217, 0.57) 1%, rgba(0, 0, 0, 0) 100%);;
+}
+
+.background p{
+	margin: 25px;
+}
+
+.background{
+	min-width: 800px;
+	margin: auto 65px;
+	border: 5px solid rgba(255, 255, 0, 0.322) ;
+   border-radius: 6px;
+}
+
+.section-india{
+	max-width: 1250px;
+	font-family: Causten;
+	font-size: 20px;
+	margin: 0 auto 50px;
+	color: #807D7E;
+}
+
+.main-text, .main-foto{
+	display: inline-block;
+	min-height: 640px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	vertical-align: top;
+}
+
+.main-text{
+	max-width: 614px;
+	width: 50%;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #FFF;	
+	background-image: url("../img/palm.png");
+	border-radius: 10px 0 0 10px;
+	padding: 183px 74px 0;
+
+}
+
+h1{
+	font-family: Core Sans C;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47; 
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+}
+
+.text-india{
+	margin-bottom: 62px;
+}
+
+.button{
+	color: #3C4242;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 8px;
+	background: #FFF;
+	padding: 12px 44px;
+}
+
+.main-foto{
+	max-width: 626px;
+	width: 50%;
+	background-image: url("../img/people.png"); 
+	border-radius: 0 10px 10px 0;
+	margin-left: -4px;  /*поки не придумала як прибрати проміжок між блоками*/
+}
+
+.title-india{
+	margin-bottom: 30px;
+}
+
+.title-india img{
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.title-india h2{
+	display: inline-block;
+	color: #3C4242;
+	font-family: Core Sans C;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.19;
+	letter-spacing: 0.56px;
+}
+
+.a-india, .india-text{
+	padding-left: 21px;
+}
+
+.a-india{
+	font-family: Core Sans C;
+	font-weight: 600;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+
+.india-text{
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	margin-bottom: 5px;
+}
+
+.india-text p{
+	padding-bottom: 20px;
+}
+
+.section-projects{
+	max-width: 1220px;
+	margin: 0 auto 50px;
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 1.46;
+}
+
+.wrapper-title{
+	max-width: 852px;
+	margin: 0 auto 47px;
+	text-align: center;
+}
+
+.sub-title{
+	color: #37393F;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 14px;
+}
+
+.square{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #40DDB6;
+	margin-right: 6px;
+}
+
+h2.title{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 14px;
+}
+
+.projects-card{
+	display: inline-block;
+	width: 384px;
+	margin: 0 19px 58px 0; /*розумію що це тимчасовий костиль до вивчення флексів(зменшення правого відступу)*/
+}
+
+.card-img{
+	width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+
+.project{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+}
+
+.data{
+	font-size: 14px;
+	padding-left: 25px;
+	background: url("../img/icon-calendar.png") left center no-repeat;
+}
+
+.monitor{
+	background: url("../img/monitor.png") center / cover no-repeat;
+}
+
+.marketer{
+	background: url("../img/marketer.png") center / cover no-repeat;
+}
+
+.phone{
+	background: url("../img/phone.png") center / cover no-repeat;
+}
+
+.financier{
+	background: url("../img/financier.png") center / cover no-repeat;
+}
+
+.developer{
+	background: url("../img/web-developer.png") center / cover no-repeat;
+}
+
+.laptop{
+	background: url("../img/laptop.png") center / cover no-repeat;
+}
+
+.section-business{
+	max-width: 673px;
+	color: #7D7D7D;
+	line-height: 1.46;
+	margin: 0 auto;
+}
+
+.sub-wrapper-title{
+	max-width: 415px;
+}
+
+.sub-wrapper-title .sub-title{
+	margin-bottom: 16px;
+}
+
+.sub-wrapper-title .title{
+	margin-bottom: 20px;
+}
+
+.text-business p{
+	margin-bottom: 15px;
+}
+
+.list{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	line-height: normal;
+	margin-bottom: 23px;
+	background: url("../img/vector.png") left top no-repeat;
+	padding-left: 35px;
+}
+
+.section-business ul{
+	margin-bottom: 43px;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 295px;
+	min-height: 140px;
+	padding: 0 32px;
+	border: 1px solid #E3E3E3;
+	margin: 0 21px 37px 0;
+}
+
+.icon-title{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 3px;
+}
+
+.icon-text{
+	font-size: 16px;
+	line-height: 1.35;
+}
+
+.letter, .cup{
+	padding-left: 58px;
+	margin: 31px 0;
+}
+
+.letter{
+	background: url("../img/icon-letter.png") top left no-repeat;
+}
+
+.cup{
+	background: url("../img/icon-cup.png") top left no-repeat;
+}
+
+.button-business{
+	display: inline-block;
+	min-width: 54px;
+	min-height: 43px;
+	padding: 21px 27px;
+	font-weight: 600;
+	line-height: normal;
+	color: #FFF;
+	background-color: #6B77E5;
+}
