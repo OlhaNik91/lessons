@@ -1,0 +1,35 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    background-color: rgba(201, 248, 232, 0.806);
+}
+
+main {
+    max-width: 768px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #3d3c3c;
+}
+
+div{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+h5{
+    margin: 30px;
+    text-align: center;
+}
+
+.raster{
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.vector{
+    margin: 10px;
+}
