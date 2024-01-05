@@ -1,0 +1,9 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+*{
+	font-family: "Causten";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1;
+}
