@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@font-face {
+	font-family: "Causten";
+	src:
+		url("../fonts/CaustenSemiBold.woff2") format("woff2"),
+		url("../fonts/CaustenSemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
